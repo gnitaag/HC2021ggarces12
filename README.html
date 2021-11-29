@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>README</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="readme">README</h1>
+<ul>
+<li>Programa: Compras en cafetería</li>
+<li>Creado por: Ghina Alexandra Garcés Rojas</li>
+<li>Materia: Herramientas de computación</li>
+<li>Fecha: 11/28/2021</li>
+</ul>
+<p>Una cafetería que atiende a profesores y estudiantes ofrece diferentes descuentos a cada grupo. El programa debe obtener el número de cédula de quién va a comprar, los productos a comprar y calcular el precio aplicando el descuento adecuado. Finalmente, debe</p>
+<h2 id="especificación-del-programa">Especificación del programa</h2>
+<ul>
+<li><strong>Input:</strong> Un rol (int) y un arreglo de productos con sus codigos y precios</li>
+<li><strong>Output:</strong> El recibo con los items comprados y el valor con el descuento aplicado</li>
+</ul>
+<h2 id="modelo-computacional">Modelo computacional</h2>
+<p>Este programa se implementó usando programación funcional (basado en funciones). Debido a la sencillez de los requerimientos, se usaron estructuras de datos básicos como listas para mantener registro de la información.</p>
+<h2 id="implementación">Implementación</h2>
+<ul>
+<li><strong>Productos:</strong> Los productos se guardan en un arreglo global 2D en el que se guarda el nombre y el precio de cada producto y el código equivale a su índice dentro del arreglo mayor. De esta manera podemos acceder fácilmente a la información relacionada con cada producto y permite hacer cambios de manera sencilla.</li>
+<li><strong>Roles</strong>: Los roles también se guardan en un arreglo global que permite acceder a la información de cada rol, junto con su porcentaje de descuento, de manera sencilla.</li>
+</ul>
+<p>La información de cada compra se guarda en variables y arreglo locales. Se obtiene la cedula y el rol de la persona que está comprando para usar en el recibo y sacar el porcentaje de descuento.</p>
+<p>Posteriormente, se realiza un ciclo para tomar cuantos productos la persona quiera comprar con su cantidad correspondiente. Estos se guardan en un arreglo para al final calcular el costo de cada item y el costo total de la compra.</p>
+<p>Ya con esta información, usamos prints para imprimir en consola lo que sería el recibo de compra de la persona donde se especifica los items que compro, el precio individual y el precio total a pagar.</p>
+</div>
+</body>
+
+</html>
